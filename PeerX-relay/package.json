@@ -1,0 +1,23 @@
+{
+  "name": "peerx-relay",
+  "version": "1.0.0",
+  "description": "PeerX encrypted message relay server",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "@types/node": "^20.0.0",
+    "@types/ws": "^8.18.1",
+    "ws": "^8.20.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

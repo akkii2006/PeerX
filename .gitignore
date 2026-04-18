@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# Android
+**/android/.gradle
+**/android/.kotlin
+
+# iOS
+**/ios/Pods
+**/ios/.symlinks
+**/ios/Flutter/ephemeral
+
+# Firebase secrets
+**/google-services.json
+**/GoogleService-Info.plist
+
+# IDE
+.idea/
+*.iml
+
+# Node
+node_modules/
+dist/
+.env
